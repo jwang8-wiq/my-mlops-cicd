@@ -24,3 +24,5 @@ print("Model training complete.")
 # --- 3. Save the Model Artifact ---
 joblib.dump(model, 'model.pkl')
 print("Model saved as model.pkl")
+
+#test1
