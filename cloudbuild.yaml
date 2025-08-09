@@ -16,3 +16,6 @@ steps:
 # Step 4: Copy the trained model to a Cloud Storage bucket
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['cp', 'model.pkl', 'gs://prefab-atlas-468301-k0/sales-apps/model.pkl']
+
+options:
+  logging: CLOUD_LOGGING_ONLY
